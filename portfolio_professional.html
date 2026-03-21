@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Lear Rainier A. Caeg — CS Portfolio</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; video-src 'self' data:; connect-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><nav id="mainNav">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-mark">L</div>
+    <div class="nav-logo-text">Lear R. Caeg <span>/ BSCS</span></div>
+  </a>
+
+  <div class="nav-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#photography">Photography</a>
+    <a href="#video-editing">Video</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <button class="nav-cta" data-action="open-hire-modal">
+    Hire Me
+  </button>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<!-- PARALLAX via background-attachment:fixed — PLACEHOLDER: edit CSS #hero background-image -->
+<section id="hero">
+  <div class="hero-inner">
+
+    <!-- Left: Text -->
+    <div>
+      <div class="hero-eyebrow">
+        BS Computer Science · Sacred Heart College Lucena
+      </div>
+
+      <h1 class="hero-name">
+        Lear Rainier<br>
+        <em>A. Caeg</em>
+      </h1>
+
+      <p class="hero-headline">
+        Developer · Photographer · Video Editor · Designer
+      </p>
+
+      <div class="hero-divider"></div>
+
+      <p class="hero-desc">
+        A <strong>3rd-year BSCS student</strong> and Marillac Grantee who builds
+        full-stack web applications, edits professional video, shoots events,
+        models in 3D, and leads three student organizations — simultaneously.
+      </p>
+
+      <div class="hero-actions">
+        <button class="btn-hero-primary" data-action="open-hire-modal">
+          Hire Me
+        </button>
+        <a href="#resume" class="btn-hero-ghost">View Resume</a>
+        <a href="#contact" class="btn-hero-ghost">Get in Touch</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">20</div>
+          <div class="hero-stat-label">Years Old</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">3rd</div>
+          <div class="hero-stat-label">Year BSCS</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">3</div>
+          <div class="hero-stat-label">Organizations</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">25+</div>
+          <div class="hero-stat-label">Tools & Skills</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Profile card -->
+    <div class="hero-card">
+      <div class="hero-card-img">
+        <!-- PLACEHOLDER: Replace .hero-card-img background-image in CSS with your profile photo -->
+      </div>
+      <div class="hero-card-body">
+        <div class="hero-card-name">Lear Rainier A. Caeg</div>
+        <div class="hero-card-role">CS Student · Marillac Grantee</div>
+        <div class="hero-card-tags">
+          <span class="hero-card-tag">Web Development</span>
+          <span class="hero-card-tag">Photography</span>
+          <span class="hero-card-tag">Video Editing</span>
+          <span class="hero-card-tag">3D Modeling</span>
+          <span class="hero-card-tag">Graphic Design</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PARALLAX BAND 1 — PLACEHOLDER: Change .px1 background-image in CSS -->
+<div class="parallax-band px1">
+  <div class="parallax-band-inner">
+    <h3>Code. Create. <em>Capture.</em></h3>
+    <p>Crafting digital experiences with precision and purpose</p>
+  </div>
+</div>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">01 — Profile</div>
+      <h2 class="section-title">About <em>Me</em></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="about-layout">
+
+      <!-- Sidebar -->
+      <div class="profile-sidebar reveal from-left">
+        <div class="profile-photo-wrap">
+          <!-- PLACEHOLDER: Replace .profile-photo-wrap background-image in CSS with your own photo -->
+        </div>
+        <div class="profile-info-card">
+          <div class="profile-full-name">Lear Rainier A. Caeg</div>
+          <span class="profile-role-badge">BS Computer Science</span>
+          <div class="profile-meta-row"><span class="pm-key">Age</span><span class="pm-val gold">20 years old</span></div>
+          <div class="profile-meta-row"><span class="pm-key">School</span><span class="pm-val">Sacred Heart College Lucena City, Inc.</span></div>
+          <div class="profile-meta-row"><span class="pm-key">Year</span><span class="pm-val gold">3rd Year BSCS</span></div>
+          <div class="profile-meta-row"><span class="pm-key">Grant</span><span class="pm-val gold">Marillac Grantee MG 2023–present</span></div>
+          <div class="profile-meta-row"><span class="pm-key">SA Role</span><span class="pm-val">AVRC · Chapel · Canteen · Purchasing · Eco-Park</span></div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="reveal from-right">
+        <p class="about-intro">
+          I'm a <strong>multidisciplinary CS student</strong> at Sacred Heart College Lucena City,
+          where I balance rigorous academics with an active creative and leadership portfolio.
+          As a Marillac Grantee and Student Assistant, I've developed both technical depth and
+          real-world professional skills across development, media production, and event management.
+        </p>
+
+        <div class="duty-section">
+          <div class="duty-section-title">AVRC — Core Responsibilities</div>
+          <div class="duty-grid">
+            <div class="duty-item"><div class="duty-icon">📷</div>Lead photographer for all school events and official documentation</div>
+            <div class="duty-item"><div class="duty-icon">🔊</div>Sound system and TV/presentation display setup and live operation</div>
+            <div class="duty-item"><div class="duty-icon">📁</div>Compiling, organizing and archiving all captured photos and video files</div>
+            <div class="duty-item"><div class="duty-icon">📋</div>Equipment inventory management and reservation administration</div>
+            <div class="duty-item"><div class="duty-icon">📅</div>Event coordination and resource planning support</div>
+            <div class="duty-item"><div class="duty-icon">📡</div>Managing PowerPoint presentations during school programs</div>
+          </div>
+        </div>
+
+        <div class="duty-section">
+          <div class="duty-section-title">Freelance & Sideline Services</div>
+          <div class="duty-grid">
+            <div class="duty-item"><div class="duty-icon">🌐</div>HTML/CSS/JS websites for BSBA student feasibility studies</div>
+            <div class="duty-item"><div class="duty-icon">🧊</div>3D office visualizations in Blender for client presentations</div>
+            <div class="duty-item"><div class="duty-icon">🎬</div>Freelance video and photo editing for birthday and event clients</div>
+            <div class="duty-item"><div class="duty-icon">🎂</div>Birthday and special occasion photography outside school</div>
+          </div>
+        </div>
+
+        <div class="stats-strip">
+          <div class="stat-cell"><div class="stat-n">3</div><div class="stat-l">Active Organizations</div></div>
+          <div class="stat-cell"><div class="stat-n">5+</div><div class="stat-l">SA Duty Areas</div></div>
+          <div class="stat-cell"><div class="stat-n">25+</div><div class="stat-l">Tools & Technologies</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX BAND 2 — PLACEHOLDER -->
+<div class="parallax-band px2">
+  <div class="parallax-band-inner">
+    <h3>Photographer. <em>Leader.</em></h3>
+    <p>Capturing moments · Driving community impact</p>
+  </div>
+</div>
+
+<!-- ══════════════ SKILLS ══════════════ -->
+<section id="skills">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">02 — Capabilities</div>
+      <h2 class="section-title">Technical <em>Skills</em></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="skills-grid">
+      <!-- Skill bars -->
+      <div class="skills-panel reveal from-left">
+        <div class="skills-panel-header">
+          <span class="skills-panel-title">Proficiency Levels</span>
+          <div class="avail-dot" style="width:8px;height:8px"></div>
+        </div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">HTML / CSS</span><span class="skill-pct">92%</span></div><div class="skill-track"><div class="skill-fill" style="--w:92%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">JavaScript / React</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" style="--w:80%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">PHP / Laravel</span><span class="skill-pct">70%</span></div><div class="skill-track"><div class="skill-fill" style="--w:70%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">Python</span><span class="skill-pct">74%</span></div><div class="skill-track"><div class="skill-fill" style="--w:74%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">Java</span><span class="skill-pct">65%</span></div><div class="skill-track"><div class="skill-fill" style="--w:65%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">MySQL / Databases</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-fill" style="--w:78%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">Video Editing</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" style="--w:90%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">Photography</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" style="--w:88%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">Graphic Design</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" style="--w:85%"></div></div></div>
+        <div class="skill-row"><div class="skill-info"><span class="skill-name">3D Modeling — Blender</span><span class="skill-pct">68%</span></div><div class="skill-track"><div class="skill-fill" style="--w:68%"></div></div></div>
+      </div>
+
+      <!-- Tools -->
+      <div class="tools-panel reveal from-right">
+        <div class="skills-panel-header">
+          <span class="skills-panel-title">Tools & Applications</span>
+        </div>
+        <div class="tool-category">
+          <div class="tc-header">Video & Streaming</div>
+          <div class="tag-cloud"><span class="tech-tag">DaVinci Resolve</span><span class="tech-tag">Filmora</span><span class="tech-tag">CapCut</span><span class="tech-tag">OBS Studio</span></div>
+        </div>
+        <div class="tool-category">
+          <div class="tc-header">Design & Media</div>
+          <div class="tag-cloud"><span class="tech-tag">Adobe Photoshop</span><span class="tech-tag">Canva</span><span class="tech-tag">Meta Business</span></div>
+        </div>
+        <div class="tool-category">
+          <div class="tc-header">Development</div>
+          <div class="tag-cloud"><span class="tech-tag">VS Code</span><span class="tech-tag">MySQL Workbench</span><span class="tech-tag">GitHub</span><span class="tech-tag">Power BI</span><span class="tech-tag">Google Drive</span></div>
+        </div>
+        <div class="tool-category">
+          <div class="tc-header">3D & Productivity</div>
+          <div class="tag-cloud"><span class="tech-tag">Blender</span><span class="tech-tag">MS Word</span><span class="tech-tag">MS Excel</span><span class="tech-tag">MS PowerPoint</span><span class="tech-tag">MS Publisher</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX BAND 3 — PLACEHOLDER -->
+<div class="parallax-band px3">
+  <div class="parallax-band-inner">
+    <h3>Editing <em>Stories.</em></h3>
+    <p>DaVinci · Filmora · CapCut · OBS Studio</p>
+  </div>
+</div>
+
+<!-- ══════════════ LEADERSHIP ══════════════ -->
+<section id="leadership">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">03 — Organizations</div>
+      <h2 class="section-title">Leadership <em>Experience</em></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="org-grid reveal">
+      <div class="org-card">
+        <div class="org-index">01 / CS DEPARTMENT</div>
+        <div class="org-name">CS Department</div>
+        <div class="org-position">Committee for Technical · P.R.O.</div>
+        <ul class="org-list">
+          <li>Managing all department social media accounts and content calendar</li>
+          <li>Designing and editing publication materials for all announcements</li>
+          <li>Event documentation, record-keeping, and announcer duties</li>
+          <li>Inter-school Computer Science department promotion campaigns</li>
+        </ul>
+      </div>
+      <div class="org-card">
+        <div class="org-index">02 / HONSCHO</div>
+        <div class="org-name">HONSCHO</div>
+        <div class="org-position">VP for External Affairs</div>
+        <ul class="org-list">
+          <li>Led Community Outreach Programs in the wider Lucena community</li>
+          <li>Supported the President in all logistics and event planning</li>
+          <li>Technical operations lead: sound system and display management</li>
+          <li>Authored Accomplishment Reports, SAF, and official documents</li>
+          <li>In-school event documentation and record-keeping officer</li>
+        </ul>
+      </div>
+      <div class="org-card">
+        <div class="org-index">03 / VMOA</div>
+        <div class="org-name">VMOA</div>
+        <div class="org-position">Vincentian Ministry of the Altar — P.R.O.</div>
+        <ul class="org-list">
+          <li>Full management of the ministry's social media presence</li>
+          <li>Pub mat design and scheduled posting for all announcements</li>
+          <li>Documentation of all ministry events and activities</li>
+          <li>Official announcer for programs, masses, and celebrations</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PHOTOGRAPHY ══════════════ -->
+<section id="photography">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">04 — Visual Arts</div>
+      <h2 class="section-title">Photography <em>Portfolio</em></h2>
+      <div class="section-divider"></div>
+      <p style="font-size:17px;color:var(--t-muted);max-width:560px;line-height:1.8">Event coverage, portrait sessions, and documentary photography for the AVRC. Available for birthdays, school programs, community events, and special occasions.</p>
+    </div>
+    <!-- PLACEHOLDER: Replace background-image URLs on each .photo-item in CSS -->
+    <div class="photo-grid reveal">
+      <div class="photo-item"><div class="photo-item-inner"></div><div class="photo-caption"><div class="caption-title">Event Coverage</div><div class="caption-sub">School Programs</div></div></div>
+      <div class="photo-item"><div class="photo-item-inner"></div><div class="photo-caption"><div class="caption-title">Portraits</div><div class="caption-sub">Behind the Lens</div></div></div>
+      <div class="photo-item"><div class="photo-item-inner"></div><div class="photo-caption"><div class="caption-title">Community</div><div class="caption-sub">Religious Activities</div></div></div>
+      <div class="photo-item"><div class="photo-item-inner"></div><div class="photo-caption"><div class="caption-title">Documentary</div><div class="caption-sub">AVRC Productions</div></div></div>
+      <div class="photo-item"><div class="photo-item-inner"></div><div class="photo-caption"><div class="caption-title">Special Events</div><div class="caption-sub">Birthday Sessions</div></div></div>
+    </div>
+    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
+      <span class="tech-tag">Camera</span>
+      <span class="tech-tag">Adobe Photoshop</span>
+      <span class="tech-tag">Canva</span>
+      <span class="tech-tag">OBS Studio</span>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX BAND 4 — PLACEHOLDER -->
+<div class="parallax-band px4">
+  <div class="parallax-band-inner">
+    <h3>Building the <em>Web.</em></h3>
+    <p>React · Laravel · MySQL · Python · Blender</p>
+  </div>
+</div>
+
+<!-- ══════════════ VIDEO EDITING ══════════════ -->
+<section id="video-editing">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">05 — Motion</div>
+      <h2 class="section-title">Video <em>Production</em></h2>
+      <div class="section-divider"></div>
+    </div>
+    <!-- PLACEHOLDER: Replace each .video-card nth-child background-image in CSS with your thumbnails -->
+    <div class="video-grid">
+      <div class="video-card reveal">
+        <div class="video-thumb">
+          <div class="video-player">
+            <!-- PLACEHOLDER: Replace src with your video file URL (mp4, webm, or other formats) -->
+            <video controls controlsList="nodownload" poster="https://images.unsplash.com/photo-1536240478700-b869ad10e128?w=700&q=70">
+              <source src="" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="video-body"><div class="video-title">School Event Highlights</div><div class="video-meta">AVRC Production · SHC Lucena</div><div class="tag-row"><span class="vid-tag">DaVinci Resolve</span><span class="vid-tag">Filmora</span><span class="vid-tag">OBS</span></div></div>
+      </div>
+      <div class="video-card reveal">
+        <div class="video-thumb">
+          <div class="video-player">
+            <!-- PLACEHOLDER: Replace src with your video file URL -->
+            <video controls controlsList="nodownload" poster="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=700&q=70">
+              <source src="vids/Group 2 Promotional Video Production.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="video-body"><div class="video-title">Group Project</div><div class="video-meta">Computer Science Student</div><div class="tag-row"><span class="vid-tag">CapCut</span><span class="vid-tag">Davinci Resolve</span></div></div>
+      </div>
+      <div class="video-card reveal">
+        <div class="video-thumb">
+          <div class="video-player">
+            <!-- PLACEHOLDER: Replace src with your video file URL -->
+            <video controls controlsList="nodownload" poster="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=700&q=70">
+              <source src="vids/Promotional Video Department .mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="video-body"><div class="video-title">Promotional Video</div><div class="video-meta">CS Dept Social Media</div><div class="tag-row"><span class="vid-tag">Filmora</span><span class="vid-tag">CapCut</span><span class="vid-tag">Davinci Resolve</span></div></div>
+      </div>
+      <div class="video-card reveal">
+        <div class="video-thumb">
+          <div class="video-player">
+            <!-- PLACEHOLDER: Replace src with your video file URL -->
+            <video controls controlsList="nodownload" poster="https://images.unsplash.com/photo-1516724562728-afc824a36e84?w=700&q=70">
+              <source src="vids/Dreamed.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="video-body"><div class="video-title">Freelance Client Edits</div><div class="video-meta">School Project/others</div><div class="tag-row"><span class="vid-tag">Filmora</span><span class="vid-tag">CapCut</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CERTIFICATIONS ══════════════ -->
+<section id="certifications">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">05 — Achievement</div>
+      <h2 class="section-title">Professional <em>Certifications</em></h2>
+      <div class="section-divider"></div>
+      <p style="font-size:17px;color:var(--t-muted);max-width:560px;line-height:1.8">Industry-recognized certifications demonstrating expertise in graphic design, data analysis, and emerging technologies.</p>
+    </div>
+    <div class="cert-grid reveal">
+      <div class="cert-card">
+        <div class="cert-image">🎨<div class="cert-overlay"><div class="cert-overlay-icon">📄</div></div></div>
+        <div class="cert-body">
+          <div class="cert-badge-title">
+            <div class="cert-badge-icon">🎨</div>
+          </div>
+          <div class="cert-name">NC3 Visual Graphic Design</div>
+          <div class="cert-issued">Passer · National Certification</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-image">📊<div class="cert-overlay"><div class="cert-overlay-icon">📄</div></div></div>
+        <div class="cert-body">
+          <div class="cert-badge-title">
+            <div class="cert-badge-icon">📊</div>
+          </div>
+          <div class="cert-name">MS Excel Essentials</div>
+          <div class="cert-issued">Formulas & Functions · Data Analysis</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-image">✨<div class="cert-overlay"><div class="cert-overlay-icon">📄</div></div></div>
+        <div class="cert-body">
+          <div class="cert-badge-title">
+            <div class="cert-badge-icon">✨</div>
+          </div>
+          <div class="cert-name">Gemini University Certified</div>
+          <div class="cert-issued">Advanced Technology Proficiency</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PROJECTS ══════════════ -->
+<section id="projects">
+  <div class="section-inner section-pad">
+    <div class="projects-header reveal">
+      <div class="section-label">07 — Development</div>
+      <h2 class="section-title" style="color:var(--white)">Featured <em style="color:var(--gold)">Projects</em></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="project-grid reveal">
+      <div class="project-cell"><div class="project-num">01</div><div class="project-title">BSBA Feasibility Websites</div><p class="project-desc">Multi-page websites for BSBA student feasibility studies — product catalogs, business profiles, and interactive contact forms.</p><div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JavaScript</span></div></div>
+      <div class="project-cell"><div class="project-num">02</div><div class="project-title">3D Office Visualizations</div><p class="project-desc">Photorealistic Blender office interiors with PBR textures, full lighting setups, and camera fly-through renders for clients.</p><div class="proj-tags"><span class="proj-tag">Blender</span><span class="proj-tag">3D Modeling</span><span class="proj-tag">Rendering</span></div></div>
+      <div class="project-cell"><div class="project-num">03</div><div class="project-title">Full-Stack Web Application</div><p class="project-desc">Laravel + React applications with MySQL database, GitHub version control, built as part of advanced BSCS coursework.</p><div class="proj-tags"><span class="proj-tag">Laravel</span><span class="proj-tag">React</span><span class="proj-tag">MySQL</span><span class="proj-tag">GitHub</span></div></div>
+      <div class="project-cell"><div class="project-num">04</div><div class="project-title">Power BI Dashboards</div><p class="project-desc">Interactive data dashboards with drill-through reports, real-time filters, and KPI visualizations on MySQL data sources.</p><div class="proj-tags"><span class="proj-tag">Power BI</span><span class="proj-tag">MySQL</span><span class="proj-tag">Analytics</span></div></div>
+      <div class="project-cell"><div class="project-num">05</div><div class="project-title">Python Automation</div><p class="project-desc">Utility scripts for data processing, file management, and academic automation — tested and deployed in VS Code.</p><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Automation</span></div></div>
+      <div class="project-cell"><div class="project-num">06</div><div class="project-title">AVRC Media Pipeline</div><p class="project-desc">End-to-end school media workflow: capture, organize, edit, and archive photos and video, plus full AV management.</p><div class="proj-tags"><span class="proj-tag">Photography</span><span class="proj-tag">DaVinci</span><span class="proj-tag">OBS</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ TOOLS ══════════════ -->
+<section id="tools">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">08 — Arsenal</div>
+      <h2 class="section-title">Tools & <em>Applications</em></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="tools-layout reveal">
+      <div class="skills-panel-header" style="margin-bottom:0;padding-bottom:20px;border-bottom:1px solid var(--border)">
+        <span class="skills-panel-title">Complete Technology Stack</span>
+        <div class="avail-dot"></div>
+      </div>
+      <div class="tools-category-grid">
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>🎬</span> Video & Stream</div><ul class="tool-list"><li>DaVinci Resolve</li><li>Filmora</li><li>CapCut</li><li>OBS Studio</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>🎨</span> Design & Media</div><ul class="tool-list"><li>Adobe Photoshop</li><li>Canva</li><li>Figma</li><li></li>Meta Business</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>💻</span> Development</div><ul class="tool-list"><li>Visual Studio Code</li><li>MySQL Workbench</li><li>GitHub</li><li>Supabase</li><li>Vercel</li><li>Google Services</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>📊</span> Data & Analytics</div><ul class="tool-list"><li>Power BI</li><li>Microsoft Excel</li><li>MySQL</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>🧊</span> 3D Modeling</div><ul class="tool-list"><li>Blender</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>📝</span> Productivity</div><ul class="tool-list"><li>MS Word</li><li>MS PowerPoint</li><li>MS Publisher</li></ul></div>
+        <div class="tool-cat-block"><div class="tool-cat-title"><span>🤖</span> AI & Assistants</div><ul class="tool-list"><li>GitHub Copilot</li><li>Claude AI</li><li>ChatGPT</li><li>Google Gemini</li><li>Notebook LM</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ RESUME ══════════════ -->
+<section id="resume">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">09 — Credentials</div>
+      <h2 class="section-title">Curriculum <em>Vitae</em></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="resume-doc reveal">
+      <!-- Resume Header -->
+      <div class="resume-header">
+        <div>
+          <div class="rh-name">Lear Rainier <em>A. Caeg</em></div>
+          <div class="rh-title">BS Computer Science · 3rd Year · Marillac Grantee · Student Assistant</div>
+        </div>
+        <div class="rh-contact">
+          <!-- PLACEHOLDER: Replace youremail@gmail.com with your actual Gmail address -->
+          <span class="rh-contact-item">📧 <a href="#" data-email-obfuscated data-email="bGVhcmNhZWdjc0BnbWFpbC5jb20=">contact</a></span>
+          <span class="rh-contact-item">📍 Lucena City, Philippines</span>
+          <span class="rh-contact-item">🎓 Sacred Heart College Lucena City, Inc.</span>
+          <span class="rh-contact-item" style="color:#34D399;margin-top:4px">● Open to Work</span>
+        </div>
+      </div>
+      <div class="resume-accent"></div>
+
+      <!-- Resume Body -->
+      <div class="resume-body">
+        <div class="resume-main">
+
+          <div class="rs">
+            <div class="rs-label">Professional Objective</div>
+            <p class="res-obj">A proactive and creative 3rd-year BSCS student with hands-on experience in full-stack web development, video production, event photography, graphic design, and 3D modeling. Seeking freelance and entry-level opportunities where technical skill meets creative problem-solving to deliver measurable real-world impact.</p>
+          </div>
+
+          <div class="rs">
+            <div class="rs-label">Education</div>
+            <div class="re">
+              <div class="re-top"><div class="re-title">Bachelor of Science in Computer Science</div><div class="re-date">2022 — Present</div></div>
+              <div class="re-org">Sacred Heart College Lucena City, Inc.</div>
+              <ul class="re-bullets">
+                <li>Marillac Grantee Scholar — MG 2023 to present</li>
+                <li>Active officer and leader in three student organizations</li>
+                <li>3rd Year standing with consistent academic performance</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="rs">
+            <div class="rs-label">Certifications</div>
+            <div class="re">
+              <ul class="re-bullets">
+                <li><span class="cert-badge">🎨</span> NC3 Visual Graphic Design Passer</li>
+                <li><span class="cert-badge">📊</span> Essentials of MS Excel - Formulas and Functions</li>
+                <li><span class="cert-badge">✨</span> Gemini Certified University Student</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="rs">
+            <div class="rs-label">Work Experience</div>
+            <div class="re">
+              <div class="re-top"><div class="re-title">Student Assistant — AVRC</div><div class="re-date">2023 — Present</div></div>
+              <div class="re-org">Audio Visual Resource Center · Sacred Heart College</div>
+              <ul class="re-bullets">
+                <li>Lead photographer for all school events and official documentation</li>
+                <li>Full setup and live operation of sound systems and TV/projector displays</li>
+                <li>Photo/video file compilation, organization, and long-term archiving</li>
+                <li>Equipment inventory management and reservation administration</li>
+              </ul>
+            </div>
+            <div class="re" style="margin-top:20px">
+              <div class="re-top"><div class="re-title">Freelance Web Developer & Editor</div><div class="re-date">2023 — Present</div></div>
+              <div class="re-org">Self-Employed · BSBA Clients & Event Photography</div>
+              <ul class="re-bullets">
+                <li>Built HTML/CSS/JS websites for BSBA student feasibility studies</li>
+                <li>Created 3D office visualizations in Blender for business presentations</li>
+                <li>Delivered professional video and photo editing for private clients</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="rs">
+            <div class="rs-label">Leadership</div>
+            <div class="re">
+              <div class="re-top"><div class="re-title">CS Dept — Technical Committee & P.R.O.</div><div class="re-date">Ongoing</div></div>
+              <ul class="re-bullets"><li>Social media management and inter-school CS department promotions</li><li>Pub mat design, event documentation, and official announcer duties</li></ul>
+            </div>
+            <div class="re" style="margin-top:16px">
+              <div class="re-top"><div class="re-title">HONSCHO — VP for External Affairs</div><div class="re-date">Ongoing</div></div>
+              <ul class="re-bullets"><li>Led Community Outreach Programs outside school campus</li><li>Technical lead for AV equipment; authored official reports and SAF documents</li></ul>
+            </div>
+            <div class="re" style="margin-top:16px">
+              <div class="re-top"><div class="re-title">VMOA — P.R.O. Officer</div><div class="re-date">Ongoing</div></div>
+              <ul class="re-bullets"><li>Ministry social media management and publication materials design</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-side">
+          <div class="rs"><div class="rs-label">Tech Skills</div><div class="rtag-cloud"><span class="rtag">HTML</span><span class="rtag">CSS</span><span class="rtag">JavaScript</span><span class="rtag">React</span><span class="rtag">Python</span><span class="rtag">Java</span><span class="rtag">Laravel</span><span class="rtag">MySQL</span><span class="rtag">GitHub</span><span class="rtag">Power BI</span></div></div>
+          <div class="rs"><div class="rs-label">Creative</div><div class="rtag-cloud"><span class="rtag">Photography</span><span class="rtag">Video Editing</span><span class="rtag">Graphic Design</span><span class="rtag">3D Modeling</span><span class="rtag">Pub Mat</span></div></div>
+          <div class="rs"><div class="rs-label">Tools</div><div class="rtag-cloud"><span class="rtag">DaVinci</span><span class="rtag">Filmora</span><span class="rtag">CapCut</span><span class="rtag">OBS</span><span class="rtag">Photoshop</span><span class="rtag">Canva</span><span class="rtag">Blender</span><span class="rtag">VS Code</span><span class="rtag">MS Office</span></div></div>
+          <div class="rs"><div class="rs-label">Soft Skills</div><div class="rtag-cloud"><span class="rtag">Event Management</span><span class="rtag">Public Speaking</span><span class="rtag">Documentation</span><span class="rtag">Leadership</span><span class="rtag">Report Writing</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CONTACT ══════════════ -->
+<section id="contact">
+  <div class="section-inner section-pad">
+    <div class="reveal" style="margin-bottom:56px">
+      <div class="section-label">10 — Connect</div>
+      <h2 class="section-title">Let's Work <em>Together</em></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Hire panel -->
+      <div class="hire-panel reveal from-left">
+        <div class="hire-label">// Available for collaboration</div>
+        <h3 class="hire-title">Ready to<br><em>Hire Me?</em></h3>
+        <p class="hire-desc">Open to freelance projects, part-time positions, and internship opportunities in web development, video production, photography, and graphic design. Let's create something meaningful.</p>
+
+        <div class="availability-badge">
+          <div class="avail-dot"></div>
+          <span class="avail-text">Currently Available</span>
+        </div>
+
+        <div class="contact-details">
+          <div class="cd-row">
+            <div class="cd-icon">📧</div>
+            <div>
+              <div class="cd-label">Email</div>
+              <!-- PLACEHOLDER: Replace with your actual Gmail address -->
+              <div class="cd-value"><a href="#" data-email-obfuscated data-email="bGVhcmNhZWdjc0BnbWFpbC5jb20=">contact</a></div>
+            </div>
+          </div>
+          <div class="cd-row">
+            <div class="cd-icon">📍</div>
+            <div>
+              <div class="cd-label">Location</div>
+              <div class="cd-value">Lucena City, Philippines</div>
+            </div>
+          </div>
+          <div class="cd-row">
+            <div class="cd-icon">🎓</div>
+            <div>
+              <div class="cd-label">School</div>
+              <div class="cd-value">Sacred Heart College Lucena City, Inc.</div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-hire" data-action="open-hire-modal">
+          Hire Me Now →
+        </button>
+      </div>
+
+      <!-- Contact form -->
+      <div class="form-panel reveal from-right">
+        <div class="form-panel-title">Send a Message</div>
+        <form id="contactForm" onsubmit="sendContact(event)">
+          <div class="fg">
+            <label class="flbl" for="cn">Your Name</label>
+            <input id="cn" class="fi" type="text" placeholder="Full name or company" required>
+          </div>
+          <div class="fg">
+            <label class="flbl" for="ce">Email Address</label>
+            <input id="ce" class="fi" type="email" placeholder="you@company.com" required>
+          </div>
+          <div class="fg">
+            <label class="flbl" for="cs">Subject</label>
+            <input id="cs" class="fi" type="text" placeholder="Project inquiry / Collaboration" required>
+          </div>
+          <div class="fg">
+            <label class="flbl" for="cm">Message</label>
+            <textarea id="cm" class="fta" rows="5" placeholder="Describe your project, timeline, and requirements..." required></textarea>
+          </div>
+          <button type="submit" class="fsub">Send Message via Gmail →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-logo">Lear <em>Caeg</em></div>
+  <div class="footer-copy">© 2024 Lear Rainier A. Caeg · BS Computer Science · Sacred Heart College Lucena City</div>
+  <div class="footer-status">All Systems Online</div>
+</footer>
+
+<!-- ══════════════ HIRE MODAL ══════════════ -->
+<div id="hireModal" data-action="close-hire-modal-backdrop">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="modal-title">Hire <em>Me</em></div>
+      <div class="modal-sub">I'll receive this directly in my Gmail inbox.</div>
+      <button class="modal-close" data-action="close-hire-modal">✕</button>
+    </div>
+    <div class="modal-body">
+      <form onsubmit="sendHire(event)">
+        <div class="fg">
+          <label class="flbl">Your Name / Company</label>
+          <input id="hn" class="fi" type="text" placeholder="Full name or company name" required>
+        </div>
+        <div class="fg">
+          <label class="flbl">Your Email Address</label>
+          <input id="he" class="fi" type="email" placeholder="your@email.com" required>
+        </div>
+        <div class="fg">
+          <label class="flbl">Service Needed</label>
+          <select id="hs" class="fsel">
+            <option value="">Select a service...</option>
+            <option>Web Development (HTML / CSS / JS)</option>
+            <option>Full-Stack Application (Laravel + React)</option>
+            <option>Event Photography</option>
+            <option>Video Editing</option>
+            <option>Graphic Design / Publication Materials</option>
+            <option>3D Office Visualization (Blender)</option>
+            <option>Sound System Setup & Operation</option>
+            <option>Other — Let's Discuss</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label class="flbl">Project Details & Budget</label>
+          <textarea id="hm" class="fta" rows="4" placeholder="Describe your project, timeline, and budget range..." required></textarea>
+        </div>
+        <button type="submit" class="fsub">Submit Inquiry via Gmail →</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
