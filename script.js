@@ -3,7 +3,7 @@
 ══════════════════════════════════════════ */
 // Decode base64 email (not shown in source)
 function getEmail() {
-  return atob('bGVhcmNhZWcuY3NAZ21haWwuY29t');
+  return atob('bGVhcnJhaW5pZXIuY3NAZ21haWwuY29t');
 }
 
 // Set up obfuscated email links
