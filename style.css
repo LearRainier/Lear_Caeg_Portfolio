@@ -564,6 +564,7 @@ section { position: relative; }
 .skill-info { display: flex; justify-content: space-between; margin-bottom: 8px; }
 .skill-name { font-size: 15px; font-weight: 500; color: var(--t-primary); }
 .skill-pct  { font-family: var(--font-mono); font-size: 13px; color: var(--gold); font-weight: 600; }
+.skill-level { font-family: var(--font-base); font-size: 13px; color: var(--gold); font-weight: 500; text-transform: capitalize; letter-spacing: 0.5px; }
 .skill-track {
   height: 4px; background: var(--warm-white);
   border-radius: 2px; overflow: hidden;
